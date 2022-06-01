@@ -1,0 +1,21 @@
+# Get All Users
+GET http://localhost:8080/api/users
+Accept: application/json
+Content-Type: application/json
+###
+
+# Store User
+POST http://localhost:8080/api/users
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "Teste",
+    "email": "teste@teste.com",
+    "sobrenome": "Testando",
+    "data_nasc": "01/01/2001",
+    "telefone": "456",
+    "celular": "456",
+    "password": "testeteste"
+}
+###
